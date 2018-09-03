@@ -59,7 +59,7 @@ datasize = 2048;
 
 # init window
 window = []
-receivedValues = set()
+receivedValues = Set()
 
 
 listening_thread = Thread(target=listen)

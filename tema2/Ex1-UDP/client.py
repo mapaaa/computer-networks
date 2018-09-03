@@ -2,6 +2,7 @@ import logging
 import socket
 from threading import Thread
 import time
+from sets import Set
 
 logging.basicConfig(format = u'[LINE:%(lineno)d]# %(levelname)-8s [%(asctime)s]  %(message)s', level = logging.NOTSET)
 
@@ -40,7 +41,7 @@ def listen():
              
             #check if number fits current window
             if currentValue <= value and value < currentValue + slidingWindowSize:
-                if value not in values_received:
+                if value not in receivedValues:
                     receivedValues.add(value)
 
 
@@ -67,7 +68,7 @@ timeout = 0.1
 
 # init window
 window = []
-receivedValues = set()
+receivedValues = Set()
 
 listening_thread = Thread(target=listen)
 sending_thread = Thread(target=send)
