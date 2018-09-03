@@ -51,16 +51,16 @@ services:
         command: bash -c 'echo \"- interfetele de retea:\" && ip addr && echo \"- gateway:\" && ip route show'
 
 networks:
-   tnet2:
-      ipam:
-        driver: default
-        config:
-            - subnet: 1.2.3.0/16
-              gateway: 1.2.3.4
-   tnet1:
-      ipam:
-        driver: default
-        config: 
-            - subnet: 125.14.14.0/30
-              gateway: 125.14.14.1
+    tnet2:
+        ipam:
+            driver: default
+            config:
+                - subnet: 1.2.3.0/16
+                  gateway: 1.2.3.4
+    tnet1:
+        ipam:
+            driver: default
+            config: 
+                - subnet: 125.14.14.0/30
+                  gateway: 125.14.14.1
  

@@ -1,0 +1,13 @@
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+IP 198.13.0.15.54321 > 198.13.0.14.10000: Flags [S], seq 100, win 8192, length 0
+IP 198.13.0.14.10000 > 198.13.0.15.54321: Flags [S.], seq 3624321131, ack 101, win 29200, options [mss 1460], length 0
+IP 198.13.0.15.54321 > 198.13.0.14.10000: Flags [.], ack 3624321132, win 8192, length 0
+IP 198.13.0.15.54321 > 198.13.0.14.10000: Flags [P.EW], seq 101:102, ack 3624321132, win 8192, length 1
+IP 198.13.0.14.10000 > 198.13.0.15.54321: Flags [.], ack 102, win 29200, length 0
+IP 198.13.0.14.10000 > 198.13.0.15.54321: Flags [P.], seq 3624321132:3624321133, ack 102, win 29200, length 1
+IP 198.13.0.15.54321 > 198.13.0.14.10000: Flags [P.EW], seq 102:103, ack 3624321132, win 8192, length 1
+IP 198.13.0.14.10000 > 198.13.0.15.54321: Flags [.], ack 103, win 29200, length 0
+IP 198.13.0.15.54321 > 198.13.0.14.10000: Flags [P.EW], seq 103:104, ack 3624321132, win 8192, length 1
+IP 198.13.0.14.10000 > 198.13.0.15.54321: Flags [.], ack 104, win 29200, length 0
+IP 198.13.0.15.54321 > 198.13.0.14.10000: Flags [R], seq 104, win 8192, length 0
+
