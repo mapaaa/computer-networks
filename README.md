@@ -1,3 +1,3 @@
 # docker-projects
 
-Teme laborator Retele
+Homework for Computer Networks course at Unibuc
